@@ -8,12 +8,13 @@ interface Props {
 const ExpandableText = ({children , maxChars = 100} : Props) => {
 
     const [expandStatus,setExpandStatus] = useState(false)
-    const[buttonText,setButtonText] = useState('more')
+    //const[buttonText,setButtonText] = useState('more')
+    
     
 
     const onButtonClick = ()=> {
         console.log("button Clicked")
-         setButtonText ({expandStatus} ? "Less" : "More" )
+        // setButtonText ({expandStatus} ? "Less" : "More" )
          setExpandStatus(!expandStatus)
         
     }
@@ -27,3 +28,7 @@ const ExpandableText = ({children , maxChars = 100} : Props) => {
     
 }
 export default ExpandableText;
+
+// function setButtonText(arg0: string) {
+//     throw new Error('Function not implemented.');
+// }

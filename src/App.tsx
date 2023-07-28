@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import LikeButton from "./Components/LikeButton"
-import Navbar from './Components/navbar'
-import Cart from './Components/Cart'
-import ExpandableText from './Components/ExpandableText'
-import Form from './Components/Form'
-import Form1 from './Components/Form1'
-import ExpenseTracker from './Components/ExpenseForm'
+// import LikeButton from "./Components/LikeButton"
+// import Navbar from './Components/navbar'
+// import Cart from './Components/Cart'
+// import ExpandableText from './Components/ExpandableText'
+// import Form from './Components/Form'
+// import Form1 from './Components/Form1'
+// import ExpenseTracker from './Components/ExpenseForm'
 import ExpenseTable from './Components/ExpenseTable'
-import { produce } from 'immer'
+// import { produce } from 'immer'
 import ExpenseFilter from './Components/ExpenseFilter'
 import ExpenseForm from './Components/ExpenseForm'
 
@@ -38,9 +38,9 @@ const [expenses,setExpenses] = useState([
 
 const [selectedCategory,setSelectedCategory] = useState ("")
 
-const [cartItems,setCartItems] = useState([{'description': "",'amount': "",'category': ""}])
+//const [cartItems,setCartItems] = useState([{'description': "",'amount': "",'category': ""}])
 
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
   //const[cartItems,setCartItems] = useState(["Books","Electronics","Groceries","HealthCare","Cosmetics","Fitness","Lifestyle"])
 
   // const clickEvent = ()=> {
@@ -50,10 +50,10 @@ const [cartItems,setCartItems] = useState([{'description': "",'amount': "",'cate
   //   })
   //   console.log(cart)
   // }
-  const onClear = () => {
-    console.log("Clear Initiated")
-    setCartItems([])
-  }
+  // const onClear = () => {
+  //   console.log("Clear Initiated")
+  //   setCartItems([])
+  // }
 
   // const addCartItem = (data:typeof cartItems) => {
   //  // console.log({addCartItem})

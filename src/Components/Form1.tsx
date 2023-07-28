@@ -1,7 +1,7 @@
 import {z} from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm, FieldValues } from 'react-hook-form'
-import { BsFileEarmarkPost } from 'react-icons/bs'
+//import { BsFileEarmarkPost } from 'react-icons/bs'
 
 const schema = z.object ({
     email: z.string().min(5 ,{message : "Please Enter valid Email id"}),
